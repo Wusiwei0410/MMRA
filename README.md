@@ -1,3 +1,3 @@
 # MMRA
-
-The inference code and our benchamrk will be released soon !!!!
+Our benchmark dataset is released: [huggingface dataset](https://huggingface.co/datasets/m-a-p/MMRA), [Google Drive]().
+The inference code will be released soon !!!!

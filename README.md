@@ -1,7 +1,7 @@
 # MMRA
 This is the repo for the paper: '[MMRA: A Benchmark for Multi-granularity Multi-image Relational Association](https://arxiv.org/pdf/2407.17379)'.
 
-Our benchmark dataset is released: [Huggingface Dataset: m-a-p/MMRA](https://huggingface.co/datasets/m-a-p/MMRA), [Google Drive](https://drive.google.com/file/d/1XhyCfCM6McC_umSEQJ4NvCZGMUnMdzj2/view?usp=sharing), and (Baidu Netdisk)[https://pan.baidu.com/s/1deQOSzpX_-Y6-IjlSiN1OA?pwd=zb3s].
+Our benchmark dataset is released: [Huggingface Dataset: m-a-p/MMRA](https://huggingface.co/datasets/m-a-p/MMRA), [Google Drive](https://drive.google.com/file/d/1XhyCfCM6McC_umSEQJ4NvCZGMUnMdzj2/view?usp=sharing), and [Baidu Netdisk](https://pan.baidu.com/s/1deQOSzpX_-Y6-IjlSiN1OA?pwd=zb3s).
 
 The MMRA.zip in Google Drive and Baidu Netdisk contains a metadata.json file, which includes all the sample information. We can input the relevant questions, options, and image pairs to LVMLs through it.
 

@@ -25,9 +25,11 @@ Furthermore, we find that LVMLs exhibit a good ability to perceive image details
 # Citation
 
 BibTeX:
+```
 @inproceedings{Wu2024MMRAAB,
   title={MMRA: A Benchmark for Multi-granularity Multi-image Relational Association},
   author={Siwei Wu and Kang Zhu and Yu Bai and Yiming Liang and Yizhi Li and Haoning Wu and Jiaheng Liu and Ruibo Liu and Xingwei Qu and Xuxin Cheng and Ge Zhang and Wenhao Huang and Chenghua Lin},
   year={2024},
   url={https://api.semanticscholar.org/CorpusID:271404179}
 }
+```

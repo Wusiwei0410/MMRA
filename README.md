@@ -21,6 +21,9 @@ Furthermore, we find that LVMLs exhibit a good ability to perceive image details
 <img src=./imgs/framework.png width=80% />
 </div>
 
+<div align="center">
+<img src=./imgs/main_result.png width=80% />
+</div>
 
 # Citation
 

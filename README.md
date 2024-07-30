@@ -40,6 +40,12 @@ If you want to use the OpenAI's API, please change the function "gpt_4_api" for 
 If you want to evaluate your model, you need to change the function "gpt_message" and "process_sample" to cater to your model, and it is also sample.
 
 ---
+#Notice
+
+Our original results are conducted by Lmms-eval framework. To make it easier for others to use our code and benchmark to evaluate the performance of their models, we replicate the result of Lmms-eval and provide the demo code. 
+The results of our reproduced demo code are generally consistent with those of Lmms-eval, but there are some slight differences.
+
+---
 # Citation
 
 BibTeX:

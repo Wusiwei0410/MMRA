@@ -9,13 +9,11 @@ The MMRA.zip in Google Drive and Baidu Netdisk contains a metadata.json file, wh
 
 # Introduction
 
-We define a multi-image relation association task, and meticulously curate **MMRA** benchmark, a **M**ulti-granularity **M**ulti-image **R**elational **A**ssociation benchmark, consisted of **1026** samples.
+We define a multi-image relation association task, and meticulously curate **MMRA** benchmark, a **M**ulti-granularity **M**ulti-image **R**elational **A**ssociation benchmark, consisted of **1,024** samples.
 In order to systematically and comprehensively evaluate mainstream LVLMs, we establish an associational relation system among images that contain **11 subtasks** (e.g, UsageSimilarity, SubEvent, etc.) at two granularity levels (i.e., "**image**" and "**entity**") according to the relations in ConceptNet.
-Our experiments demonstrate that, on our MMRA benchmark, current mainstream LVLMs all have their own advantages and disadvantages across different subtasks.
-It is worth noting that, at the entity level, the performance of all models is worse than that of them at the image level, indicating that the fine-grained multi-image perception task is still challenging for LVLMs.
-The tasks related to spatial perception are relatively difficult for LVLMs to handle. 
-Furthermore, we find that LVMLs exhibit a good ability to perceive image details, and the key to enhancing their multi-image association capability is to strengthen the reasoning ability of their language model component.
-
+Our experiments reveal that on the MMRA benchmark, current multi-image LVLMs exhibit distinct advantages and disadvantages across various subtasks. Notably, fine-grained, entity-level multi-image perception tasks pose a greater challenge for LVLMs compared to image-level tasks. Tasks that involve spatial perception are especially difficult for LVLMs to handle.
+Additionally, our findings indicate that while LVLMs demonstrate a strong capability to perceive image details, enhancing their ability to associate information across multiple images hinges on improving the reasoning capabilities of their language model component.
+Moreover, we explored the ability of LVLMs to perceive image sequences within the context of our multi-image association task. Our experiments indicate that the majority of current LVLMs do not adequately model image sequences during the pre-training process.
 <div align="center">
 <img src=./imgs/framework.png width=80% />
 </div>

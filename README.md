@@ -57,10 +57,10 @@ The results of our reproduced demo code are generally consistent with those of L
 
 BibTeX:
 ```
-@inproceedings{Wu2024MMRAAB,
+@article{wu2024mmra,
   title={MMRA: A Benchmark for Multi-granularity Multi-image Relational Association},
-  author={Siwei Wu and Kang Zhu and Yu Bai and Yiming Liang and Yizhi Li and Haoning Wu and Jiaheng Liu and Ruibo Liu and Xingwei Qu and Xuxin Cheng and Ge Zhang and Wenhao Huang and Chenghua Lin},
-  year={2024},
-  url={https://api.semanticscholar.org/CorpusID:271404179}
+  author={Wu, Siwei and Zhu, Kang and Bai, Yu and Liang, Yiming and Li, Yizhi and Wu, Haoning and Liu, Jiaheng and Liu, Ruibo and Qu, Xingwei and Cheng, Xuxin and others},
+  journal={arXiv preprint arXiv:2407.17379},
+  year={2024}
 }
 ```

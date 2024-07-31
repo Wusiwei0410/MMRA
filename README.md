@@ -30,10 +30,10 @@ Furthermore, we find that LVMLs exhibit a good ability to perceive image details
 We provide a demo to rerun the result of the LVLMs (i.e., Idefics2, Mantis, Phi3, Qwen-VL-Chat, GPT4o and GPT4v).
 You can run the following codes for the open-source multi-image LVMLs:
 ```
-python ./evaluate_demo.py --model_name Idefics2 --model_id HuggingFaceM4/idefics2-8b
-python ./evaluate_demo.py --model_name Qwen-VL-Chat --model_id Qwen/Qwen-VL-Chat
-python ./evaluate_demo.py --model_name Mantis_Idefics2 --model_id TIGER-Lab/Mantis-8B-Idefics2
-python ./evaluate_demo.py --model_name Phi3v --model_id microsoft/Phi-3-vision-128k-instruct
+python ./evaluate/evaluate_demo.py --model_name Idefics2 --model_id HuggingFaceM4/idefics2-8b
+python ./evaluate/evaluate_demo.py --model_name Qwen-VL-Chat --model_id Qwen/Qwen-VL-Chat
+python ./evaluate/evaluate_demo.py --model_name Mantis_Idefics2 --model_id TIGER-Lab/Mantis-8B-Idefics2
+python ./evaluate/evaluate_demo.py --model_name Phi3v --model_id microsoft/Phi-3-vision-128k-instruct
 ```
 If you want to use the OpenAI's API, please change the function "gpt_4_api" for a different model (e.g., GPT4o and GPT4v) and update your api and base_url in the "--API_KEY" and "--BASE_URL".
 

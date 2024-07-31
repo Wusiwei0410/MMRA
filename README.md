@@ -23,7 +23,16 @@ Moreover, we explored the ability of LVLMs to perceive image sequences within th
 </div>
 
 ---
-#Evaluation LVMLs on Our MMRA benchmark
+# Using Datasets
+
+You can load our datasets by following codes:
+
+```python
+MMRA_data = datasets.load_dataset('m-a-p/MMRA')['train']
+print(MMRA_data[0])
+```
+---
+# Evaluation LVMLs on Our MMRA benchmark
 
 We provide a demo to rerun the result of the LVLMs (i.e., Idefics2, Mantis, Phi3, Qwen-VL-Chat, GPT4o and GPT4v).
 You can run the following codes for the open-source multi-image LVMLs:
@@ -38,7 +47,7 @@ If you want to use the OpenAI's API, please change the function "gpt_4_api" for 
 If you want to evaluate your model, you need to change the function "gpt_message" and "process_sample" to cater to your model, and it is also sample.
 
 ---
-#Notice
+# Notice
 
 Our original results are conducted by Lmms-eval framework. To make it easier for others to use our code and benchmark to evaluate the performance of their models, we replicate the result of Lmms-eval and provide the demo code. 
 The results of our reproduced demo code are generally consistent with those of Lmms-eval, but there are some slight differences.
